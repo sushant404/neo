@@ -11,14 +11,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../css/styles.css" />
-  <script src="../js/main.js" defer></script>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/main.js" defer></script>
 </head>
 <body>
 
 <nav aria-label="Main navigation">
   <div class="nav-inner">
-    <a href="../index.html" class="nav-logo">
+    <a href="index.html" class="nav-logo">
       <div class="nav-logo-emblem">
         <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <circle cx="14" cy="14" r="12" stroke="white" stroke-width="1.5"/>
@@ -35,12 +35,12 @@
     </a>
     <button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
     <ul class="nav-links">
-      <li><a href="../about/index.html" data-nav="about">About</a></li>
-      <li><a href="../books/index.html" data-nav="books">Books</a></li>
-      <li><a href="index.html" data-nav="podcasts">Podcasts</a></li>
-      <li><a href="../author/index.html" data-nav="author">Author</a></li>
-      <li><a href="../contact/index.html" data-nav="contact">Contact</a></li>
-      <li><a href="../index.html#newsletter" class="nav-cta" data-nav="subscribe">Subscribe</a></li>
+      <li><a href="about.html" data-nav="about">About</a></li>
+      <li><a href="books.html" data-nav="books">Books</a></li>
+      <li><a href="podcasts.html" data-nav="podcasts">Podcasts</a></li>
+      <li><a href="author.html" data-nav="author">Author</a></li>
+      <li><a href="contact.html" data-nav="contact">Contact</a></li>
+      <li><a href="index.html#newsletter" class="nav-cta" data-nav="subscribe">Subscribe</a></li>
     </ul>
   </div>
 </nav>
@@ -200,12 +200,12 @@
       <div>
         <div class="footer-col-title">Navigate</div>
         <ul class="footer-links">
-          <li><a href="../about/index.html">About</a></li>
-          <li><a href="../books/index.html">Books</a></li>
-          <li><a href="index.html">Podcasts</a></li>
-          <li><a href="../author/index.html">Author</a></li>
-          <li><a href="../contact/index.html">Contact</a></li>
-          <li><a href="../index.html#newsletter">Subscribe</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="books.html">Books</a></li>
+          <li><a href="podcasts.html">Podcasts</a></li>
+          <li><a href="author.html">Author</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html#newsletter">Subscribe</a></li>
         </ul>
       </div>
       <div>
@@ -221,7 +221,7 @@
       <div>
         <div class="footer-col-title">Connect</div>
         <ul class="footer-links">
-          <li><a href="../contact/index.html">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li><a href="#">Media Inquiries</a></li>
           <li><a href="#">Speaking Engagements</a></li>
           <li><a href="#">Academic Collaboration</a></li>
@@ -245,7 +245,7 @@
 <script>
 (function () {
   var p = (window.location.pathname || '').replace(/\\/g, '/').toLowerCase();
-  var keys = { about: /\/about(\/|$)/, books: /\/books(\/|$)/, podcasts: /\/podcasts(\/|$)/, author: /\/author(\/|$)/, contact: /\/contact(\/|$)/ };
+  var keys = { about: /about\.html$/i, books: /(books|world-bank-in-nepal)\.html$/i, podcasts: /podcasts\.html$/i, author: /author\.html$/i, contact: /contact\.html$/i };
   document.querySelectorAll('.nav-links a[data-nav]').forEach(function (a) {
     var k = a.getAttribute('data-nav');
     if (!k || k === 'subscribe') return;
