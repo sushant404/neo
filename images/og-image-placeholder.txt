@@ -1,0 +1,9 @@
+og-image.png should be created manually:
+- Dimensions: 1200 x 630px
+- Background: #003D6E (deep UN navy)
+- NEO logo mark centered-left in white/gold
+- Text right side: "Nepal Economic Observatory" in white Playfair Display
+- Subtitle: "Independent Economic Research" in light blue Source Sans 3
+- This file is referenced in all <meta property="og:image"> tags
+- Create using Figma, Canva, or any image editor and save as og-image.png
+  in the /images/ directory

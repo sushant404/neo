@@ -79,17 +79,19 @@ nav {
 }
 
 .nav-logo-emblem {
-  width: 44px;
-  height: 44px;
-  background: var(--un-blue);
-  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  background: transparent;
 }
 
-.nav-logo-emblem svg { width: 28px; height: 28px; }
+.nav-logo-emblem svg {
+  width: 36px;
+  height: 36px;
+}
 
 .nav-logo-text { line-height: 1.15; }
 
@@ -372,14 +374,10 @@ nav {
   align-self: flex-end;
 }
 
-.book-cover-seal span {
-  color: white;
-  font-size: 0.42rem;
-  font-weight: 800;
-  text-align: center;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  line-height: 1.25;
+.book-cover-seal svg {
+  width: 32px;
+  height: 32px;
+  display: block;
 }
 
 /* 5. Trust Bar */

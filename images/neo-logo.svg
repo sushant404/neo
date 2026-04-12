@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 44" width="160" height="44" fill="none">
+  <polyline points="2,40 16,3 22,26 31,12 42,40" fill="none" stroke="#0072BC" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <polyline points="17,36 24,30 31,23" fill="none" stroke="#C8922A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="17" cy="36" r="2" fill="#C8922A"/>
+  <circle cx="24" cy="30" r="2" fill="#C8922A"/>
+  <circle cx="31" cy="23" r="2" fill="#C8922A"/>
+  <text x="50" y="19" font-family="'Source Sans 3', sans-serif" font-size="18" font-weight="700" letter-spacing="3px" fill="#0072BC">NEO</text>
+  <text x="50" y="28" font-family="'Source Sans 3', sans-serif" font-size="7" font-weight="600" letter-spacing="1.5px" fill="#6B85A0">
+    <tspan x="50" dy="0">NEPAL ECONOMIC</tspan>
+    <tspan x="50" dy="9">OBSERVATORY</tspan>
+  </text>
+</svg>
