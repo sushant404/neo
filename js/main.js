@@ -1,5 +1,5 @@
 /**
- * Nepal Economic Observatory — shared behavior
+ * Nepal Economic Observatory: shared behavior
  * Smooth scroll, forms, mobile navigation, back-to-top
  */
 
